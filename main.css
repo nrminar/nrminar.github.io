@@ -4,6 +4,7 @@ p {
 }
 body {
   background: url(https://cdn.shopify.com/s/files/1/0533/2089/files/5-websites-to-download-free-subtle-textures-subtle.jpg?5724472906039650661);
+  font-size: 20px
 }
 .personalinfo {
   width: 600px;
@@ -15,11 +16,11 @@ body {
 }
 
 .mainbody {
-  font-size: 17px;
+  font-size: 25px;
   font-style: calibri;
 }
 .aboutme {
-  font-size: 15px;
+  font-size: 20px;
 }
 h2 {
   font-style: impact;
