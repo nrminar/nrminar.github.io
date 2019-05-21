@@ -15,7 +15,14 @@ p {
 .aboutme {
   font-size: 15px;
 }
+.tab {
+  width: 600px;
+  margin: auto;
+}
+
 .tabcontent {
+  width: 600px;
+  margin: auto;
   animation: fadeEffect 1s;
 }
 
