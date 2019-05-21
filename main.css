@@ -7,3 +7,10 @@ p {
   margin: auto;
   font-size: 40px;
 }
+.tabcontent {
+  animation: fadeEffect 1s;
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
