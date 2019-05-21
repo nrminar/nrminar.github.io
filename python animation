@@ -1,0 +1,78 @@
+from tkinter import *
+import random
+width = 600
+height= 800
+
+class Struggle:
+    def __init__(self, y):
+        self.y = y
+    def getMovement(self):
+        if self.y < -300:
+            movement = random.randint(-2, -1)
+            return movement
+        elif self.y > 0:
+            movement = random.randint(1, 2)
+            return movement
+        else:
+            movement = random.randint(-1, 1)
+            return movement
+        
+class Person:
+    def __init__(self):
+        window =Tk()
+        window.title("Sisyphus")
+        self.canvas = Canvas(window,bg="brown", width=600,height=800)
+        self.canvas.pack()
+        
+        x = 0
+        dx = 1
+        y = 0
+        dy = 1.7
+
+        #hill
+        self.canvas.create_polygon(600,-75, 500, 100, 100, 800, 600, 800, fill="grey")
+        
+        #rock
+        self.canvas.create_oval(35+x,455+y,245+x,655+y, fill="orange", tag="sisyphus")
+
+        #person
+        self.canvas.create_oval(65+x,670+y, 95+x,700+y, fill="black",tag="sisyphus")  #head
+        self.canvas.create_line(90+x,695+y, 115+x,720+y,tag="sisyphus") #chest
+        self.canvas.create_line(115+x,720+y, 145+x,720+y,tag="sisyphus")#right leg
+        self.canvas.create_line(115+x,720+y, 115+x,770+y,tag="sisyphus")#left leg
+        self.canvas.create_line(95+x,700+y, 135+x,650+y,tag="sisyphus") #arm
+        self.canvas.create_line(95+x,700+y, 115+x,640+y,tag="sisyphus") #arm
+
+        #cloud
+        cx = 0
+        cdx = 0.5
+        self.canvas.create_oval(0+cx,-60, 150+cx,40, fill="beige", tag="cloud")
+        self.canvas.create_oval(100+cx,-60, 250+cx,40, fill="beige", tag="cloud")
+        self.canvas.create_oval(50+cx,-50, 200+cx,50, fill="beige", tag="cloud")
+
+        struggle = Struggle(y)
+        
+        while True:
+            move = struggle.getMovement()
+            speed = random.randint(200,300)
+            self.canvas.move("sisyphus",x,y)
+            self.canvas.after(speed)
+            self.canvas.update()
+            if x < 360:
+                x += dx * move
+                y -= dy * move
+            else:
+                x = 0
+            self.canvas.move("cloud",2,0)
+            self.canvas.after(50)
+            self.canvas.update()
+            if cx < 100:
+                cx += cdx
+            else:
+                cx -= cdx
+
+        self.canvas.delete("cloud")       
+        self.canvas.delete("sisyphus")
+        window.mainloop()
+
+Person()
