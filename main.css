@@ -2,6 +2,9 @@
 p {
   color: red;
 }
+body {
+  background: url(http://backgrounddownload.com/wp-content/uploads/2018/09/professional-website-background-images-hd-2.jpg);
+}
 .personalinfo {
   width: 600px;
   margin: auto;
