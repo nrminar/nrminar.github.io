@@ -3,7 +3,7 @@ p {
   color: blue;
 }
 .personalinfo {
-  width: 500px;
+  width: 600px;
   margin: auto;
 }
 .name {
@@ -16,7 +16,7 @@ p {
   font-size: 15px;
 }
 .tab {
-  width: 600px;
+  width: 100px;
   margin: auto;
 }
 
