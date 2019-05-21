@@ -2,6 +2,7 @@
 body {
   background: url(http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg);
   font-size: 20px;
+  font: arial
 }
 .personalinfo {
   width: 600px;
@@ -9,7 +10,7 @@ body {
 }
 .name {
   font-size: 40px;
-  font: arial black;
+  font: arialblack;
   padding-bottom: 10px;
 }
 
