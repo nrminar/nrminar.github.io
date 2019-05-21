@@ -2,7 +2,7 @@
 p {
   color: blue;
 }
-#name {
+.mainbody {
   width: 300px;
   margin: auto;
   font-size: 40px;
