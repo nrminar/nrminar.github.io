@@ -2,7 +2,7 @@
 body {
   background: url(http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg);
   font-size: 20px;
-  font: arial
+  font: impact
 }
 .personalinfo {
   width: 600px;
@@ -10,13 +10,12 @@ body {
 }
 .name {
   font-size: 40px;
-  font: impact;
+  font: Helvetica;
   padding-bottom: 10px;
 }
 
 .mainbody {
   font-size: 25px;
-  font: calibri;
 }
 .aboutme {
   font-size: 20px;
@@ -30,14 +29,8 @@ body {
   border-bottom: 1px solid #999;
 }
 
-h2 {
-  font: impact;
-}
 h3 {
   border-top: 1px solid #999;
-}
-h4 {
-  font: impact;
 }
 .tab {
   width: 325px;
