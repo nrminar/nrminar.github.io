@@ -55,6 +55,7 @@ h4 {
 }
 .date {
   float: right;
+  padding-top: 10px;
 }
 
 @keyframes fadeEffect {
