@@ -22,6 +22,7 @@ body {
 }
 h2 {
   font-style: impact;
+  border-bottom: 1px solid #999
 }
 .tab {
   width: 325px;
