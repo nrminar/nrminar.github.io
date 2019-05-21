@@ -32,6 +32,8 @@ h4 {
 .tab {
   width: 325px;
   margin: auto;
+}
+.tablinks {
   border-radius: 12px;
 }
 
