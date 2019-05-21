@@ -14,7 +14,7 @@
       <p>I am an individual that loves to learn new things and try new ideas. My passion is to explore the possibilites that science and technology bring to us. I excel at problem solving and working with those around me.</p>
     </div>
     <div class="tab">
-      <button class="tablinks" onclick="openInfo(event, 'Experience')">Experience</button>
+      <button class="tablinks" onclick="openInfo(event, 'Experience')" id="default">Experience</button>
       <button class="tablinks" onclick="openInfo(event, 'Education')">Education</button>
     </div>
     <div id="Experience" class="tabcontent">
@@ -48,6 +48,7 @@
         document.getElementById(infotype).style.display = "block";
         evt.currentTarget.className += " active";
       }
+      document.getElementById("default").click();
     </script>
   </body>
 </html>
