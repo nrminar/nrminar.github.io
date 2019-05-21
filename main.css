@@ -13,6 +13,10 @@ body {
   font-size: 40px;
   font-style: arial black;
 }
+.button {
+  border-radius: 12px;
+  
+}
 .mainbody {
   font-size: 17px;
   font-style: calibri;
@@ -24,7 +28,7 @@ h2 {
   font-style: impact;
 }
 .tab {
-  width: 200px;
+  width: 325px;
   margin: auto;
 }
 
