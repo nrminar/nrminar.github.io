@@ -25,6 +25,9 @@ h2 {
   font-style: impact;
   border-bottom: 1px solid #999
 }
+h4 {
+  font-style: impact;
+}
 .tab {
   width: 325px;
   margin: auto;
