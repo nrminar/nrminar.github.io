@@ -2,13 +2,22 @@
 p {
   color: green;
 }
-.mainbody {
-  width: 300px;
+.personalinfo {
+  width: 500px;
   margin: auto;
-  font-size: 40px;
+}
+.name {
+  font-size: 40px
+}
+.mainbody {
+  font-size: 20px
+}
+.aboutme {
+  font-size: 15px
 }
 .tabcontent {
   animation: fadeEffect 1s;
+}
 
 @keyframes fadeEffect {
   from {opacity: 0;}
