@@ -25,6 +25,9 @@ p {
   margin: auto;
   animation: fadeEffect 1s;
 }
+.date {
+  float: right;
+}
 
 @keyframes fadeEffect {
   from {opacity: 0;}
