@@ -36,6 +36,9 @@ h4 {
 .tablinks {
   border-radius: 12px;
 }
+.pynimation {
+  border-radius: 12px;
+}
 
 .tabcontent {
   width: 600px;
