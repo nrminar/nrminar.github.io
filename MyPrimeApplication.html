@@ -17,7 +17,7 @@
       <button class="tablinks" onclick="openInfo(event, 'Experience')">Experience</button>
       <button class="tablinks" onclick="openInfo(event, 'Education')">Education</button>
     </div>
-    <div id="Experience" class="Expcontent">
+    <div id="Experience" class="tabcontent">
       <h2>Experience</h2>
       <h3>Oreilly Auto Parts (August 2017 - April 2019)</h3>
       </p>Retail Service Specialist- Responsible for customer service, sales, store appearence and operation, training new team members.</p>
@@ -27,13 +27,27 @@
       <p>Farm Hand- The business was family owned and operated so I was responsible for anything my grandfather saw fit including, milking, feeding, and moving cows, maintenence of farm equipment and infrastructure.</p>
   
     </div>
-    <div id="Education" class="Educontent">
+    <div id="Education" class="tabcontent">
       <h2>Education</h2>
       <h3>St. Cloud State University- Computer Science (2018-2019)</h3>
       <h3>University of Wisconsin Milwaukee- Physics(2015-2015)</h3>
       <h3>University of Minnesota Mankato- General Education(2014-2015)</h3>
       <h3>New Prague High School- Graduated 2015</h3>
     </div>
+    <script>
+      function openInfo(evt, infotype) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(infotype).style.display = "block";
+      evt.currentTarget.className += " active";
+      }
   </body>
 </html>
     
