@@ -25,10 +25,12 @@ body {
 .jobs {
   border-top: 1px solid #999;
 }
-  
+#education {
+  border-bottom: 1px solid #999;
+}
+
 h2 {
   font: impact;
-  border-bottom: 1px solid #999;
 }
 h4 {
   font: impact;
