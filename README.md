@@ -1,1 +1,0 @@
-# nrminar.github.io
