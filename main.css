@@ -9,13 +9,13 @@ body {
 }
 .name {
   font-size: 40px;
-  font-style: arial black;
+  font: arial black;
   padding-bottom: 10px;
 }
 
 .mainbody {
   font-size: 25px;
-  font-style: calibri;
+  font: calibri;
 }
 .aboutme {
   font-size: 20px;
@@ -23,11 +23,11 @@ body {
   font-style- italic;
 }
 h2 {
-  font-style: impact;
+  font: impact;
   border-bottom: 1px solid #999;
 }
 h4 {
-  font-style: impact;
+  font: impact;
 }
 .tab {
   width: 325px;
