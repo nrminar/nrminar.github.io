@@ -22,11 +22,8 @@ body {
   border-bottom: 1px solid #999;
   font-style- italic;
 }
-#experience {
-  border-bottom: 1px solid #999;
-
-#education {
-  border-bottom: 1px solid #999;
+.jobs {
+  border-top: 1px solid #999;
 }
   
 h2 {
