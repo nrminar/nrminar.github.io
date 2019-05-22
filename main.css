@@ -1,14 +1,14 @@
 
 body {
   background: url(http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg);
-  font: 20x calibri, Sans-Serif;
+  font: 20x Calibri, Sans-Serif;
 }
 .personalinfo {
   width: 800px;
   margin: auto;
 }
 .name {
-  font: 40px arial, Sans-Serif;
+  font: 40px Arial, Sans-Serif;
   padding-bottom: 10px;
 }
 
