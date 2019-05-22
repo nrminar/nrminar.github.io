@@ -29,9 +29,6 @@ body {
   border-bottom: 1px solid #999;
 }
 
-h3 {
-  border-top: 1px solid #999;
-}
 .tab {
   width: 325px;
   margin: auto;
@@ -50,7 +47,6 @@ h3 {
 }
 .date {
   float: right;
-  padding-top: 10px;
 }
 
 @keyframes fadeEffect {
