@@ -47,6 +47,7 @@ body {
 }
 .date {
   float: right;
+  padding-top: 20px;
 }
 
 @keyframes fadeEffect {
