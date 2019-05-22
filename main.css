@@ -5,7 +5,7 @@ body {
   font: impact;
 }
 .personalinfo {
-  width: 600px;
+  width: 800px;
   margin: auto;
 }
 .name {
@@ -41,7 +41,7 @@ body {
 }
 
 .tabcontent {
-  width: 600px;
+  width: 800px;
   margin: auto;
   animation: fadeEffect 1s;
 }
